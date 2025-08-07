@@ -16,7 +16,6 @@ Web app ini membantu teknisi IT menentukan waktu terbaik untuk kunjungan mainten
 Aplikasi ini dibangun menggunakan **Laravel** sebagai framework backend, **Tailwind CSS** dan **Flowbite** untuk antarmuka pengguna yang modern dan responsif, serta **SQLite** sebagai database lokal. Aplikasi ini memungkinkan pengguna untuk:
 - Menginput lokasi (kecamatan/desa), dan tanggal kegiatan.
 - Mendapatkan saran slot waktu berdasarkan prakiraan cuaca dari API BMKG (misalnya, waktu dengan cuaca cerah atau berawan).
-- Menyimpan data kegiatan ke database SQLite.
 
 Fitur utama:
 - Form input untuk menjadwalkan kegiatan.
@@ -40,7 +39,7 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi di mesin lokal Anda:
 
 1. **Clone Repository** (jika menggunakan Git):
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AgungDwiSahputra/recommendation-survey-time
    cd recommendation-survey-time
    ```
 
